@@ -2,7 +2,7 @@ const brandData = document.getElementById('brand-data').innerHTML + '/';
 
 const audioPlayer = document.getElementById('au-player');
 const nextButton = document.getElementById('nextButton');
-const musicFolderPath = './music/' + brandData;
+const musicFolderPath = './music' + brandData;
 let musicFiles = [];
 let currentIndex = 0;
  fetchMusicFiles();
