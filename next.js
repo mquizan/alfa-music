@@ -31,7 +31,7 @@ function fetchMusicFiles() {
 
 function playMusicAtIndex(index) {
   const musicFile = musicFiles[index];
-  audioPlayer.src =  musicFolderPath + musicFile;
+  audioPlayer.src =  musicFile;
   audioPlayer.load(); // Preload the audio file
             //  document.addEventListener('click', function() {
             //    audioPlayer.pause();
