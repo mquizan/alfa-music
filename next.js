@@ -60,10 +60,11 @@ function playMusicAtIndex(index) {
     }
   }
 }
-audioPlayer.addEventListener('error', ()=>{
-    nextButton.click();
-}
-);
+// audioPlayer.addEventListener('error', ()=>{
+//     nextButton.click();
+// }
+// );
+
 // function playMusicAtIndex(index) {
 //  const musicFile = musicFiles[index];
 //  audioPlayer.src = musicFolderPath + musicFile;
