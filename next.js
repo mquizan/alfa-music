@@ -45,7 +45,7 @@ function playMusicAtIndex(index) {
     const nextIndex = (currentIndex + i) % musicFiles.length;
     const nextMusicFile = musicFiles[nextIndex];
     const nextAudio = new Audio();
-    nextAudio.src =  musicFolderPath + nextMusicFile;
+    nextAudio.src = nextMusicFile;
     nextAudio.load();
 
     // Check if the nextMusicFile is already in the disk cache
