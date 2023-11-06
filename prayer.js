@@ -93,11 +93,6 @@ function checkPrayerTimes() {
   localStorage.setItem('cellValues', JSON.stringify(cellValues)); // Store cell values in local storage
 }
 
-const TjsonValue = localStorage.getItem('cellValues');
-const timeValues = JSON.parse(TjsonValue);
-
-console.log(timeValues[1])
-
 
 // Function to find the next prayer time
 function findNextPrayerTime() {
