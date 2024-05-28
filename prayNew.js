@@ -95,9 +95,6 @@ if (currentHour === cellHour && futureMinute === cellMinute) {
     }, 15 * 60 * 1000); // 15 minutes
 }
 
-    cellValues.push(cell.innerText); // Save cell value
-  });
-
   localStorage.setItem('cellValues', JSON.stringify(cellValues)); // Store cell values in local storage
 }
 
