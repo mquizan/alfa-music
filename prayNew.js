@@ -96,7 +96,6 @@ if (currentHour === cellHour && futureMinute === cellMinute) {
 }
 
   localStorage.setItem('cellValues', JSON.stringify(cellValues)); // Store cell values in local storage
-}
 
 const jsonValue = localStorage.getItem('cellValues');
 const timeValues = JSON.parse(jsonValue);
