@@ -94,9 +94,10 @@ if (currentHour === cellHour && futureMinute === cellMinute) {
         cellValues.push(cell.innerText); // Save cell value
     }, 15 * 60 * 1000); // 15 minutes
 }
-
+    cellValues.push(cell.innerText); // Save cell value
+  });
   localStorage.setItem('cellValues', JSON.stringify(cellValues)); // Store cell values in local storage
-
+}
 const jsonValue = localStorage.getItem('cellValues');
 const timeValues = JSON.parse(jsonValue);
 
