@@ -89,7 +89,7 @@ if (currentHour === cellHour && futureMinute === cellMinute) {
         timeElement.style.backgroundColor = '#fff';
         bodyBox.style.display = 'none';
         spotifyEmbed.contentWindow.postMessage({
-            command: 'play'
+            command: 'resume'
         }, '*');
         cellValues.push(cell.innerText); // Save cell value
     }, 15 * 60 * 1000); // 15 minutes
